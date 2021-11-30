@@ -1,0 +1,1 @@
+export const DB_CONNECTION_URL = `mongodb+srv://${process.env.mongodb_username}:${process.env.mongodb_password}@${process.env.mongodb_cluster}.j1xpu.mongodb.net/${process.env.mongodb_database}?retryWrites=true&w=majority`;
