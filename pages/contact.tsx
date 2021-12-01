@@ -1,7 +1,7 @@
 import type { NextPage } from 'next';
 import Head from 'next/head';
 import { Fragment } from 'react';
-import ContactForm from '../components/contact/contact-form';
+import ContactForm from '@/components/contact/contact-form';
 
 const ContactPage: NextPage = () => {
   return (

@@ -1,8 +1,8 @@
 import type { GetStaticPaths, GetStaticProps, NextPage } from 'next';
 import Head from 'next/head';
 import { Fragment } from 'react';
-import PostContent from '../../components/posts/post-details/post-content';
-import { getFeaturedPosts, getPostBySlug } from '../../utils/posts';
+import PostContent from '@/components/posts/post-details/post-content';
+import { getFeaturedPosts, getPostBySlug } from '@/utils/posts';
 
 interface PostDetailsPageProps {
   post?: Post;

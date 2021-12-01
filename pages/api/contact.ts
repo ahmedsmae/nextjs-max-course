@@ -1,6 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 import { MongoClient } from 'mongodb';
-import { DB_CONNECTION_URL } from '../../constants/urls';
+import { DB_CONNECTION_URL } from '@/constants/urls';
 
 type ResponseData = {
   status: 'success' | 'error';

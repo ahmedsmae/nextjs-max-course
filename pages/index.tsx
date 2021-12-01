@@ -1,9 +1,9 @@
 import type { GetStaticProps, NextPage } from 'next';
 import Head from 'next/head';
 import { Fragment } from 'react';
-import FeaturedPosts from '../components/home-page/featured-posts';
-import Hero from '../components/home-page/hero';
-import { getFeaturedPosts } from '../utils/posts';
+import FeaturedPosts from '@/components/home-page/featured-posts';
+import Hero from '@/components/home-page/hero';
+import { getFeaturedPosts } from '@/utils/posts';
 
 interface HomePageProps {
   featuredPosts: Array<Post>;
